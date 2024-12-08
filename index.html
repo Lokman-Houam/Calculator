@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/main.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="output">
+        <p id="output"></p>
+      </div>
+      <div class="input">
+        <div class="top">
+          <button class="f1" id="cl" onclick="cl()">C</button>
+          <button id="pow" onclick="pow()">^</button>
+          <button class="op" id="div" onclick="div()">/</button>
+        </div>
+        <div class="mid">
+          <div class="dig">
+            <div class="row">
+              <button id="seven" onclick="seven()">7</button>
+              <button id="eight" onclick="eight()">8</button>
+              <button id="nine" onclick="nine()">9</button>
+              <button class="op" id="add" onclick="add()">+</button>
+            </div>
+            <div class="row">
+              <button id="four" onclick="four()">4</button>
+              <button id="five" onclick="five()">5</button>
+              <button id="six" onclick="six()">6</button>
+              <button class="op" id="sub" onclick="sub()">-</button>
+            </div>
+            <div class="row">
+              <button id="one" onclick="one()">1</button>
+              <button id="two" onclick="two()">2</button>
+              <button id="three" onclick="three()">3</button>
+              <button class="op" id="mul" onclick="mul()">*</button>
+            </div>
+          </div>
+        </div>
+        <div class="bot">
+          <button id="dot" onclick="dot()">.</button>
+          <button id="zero" onclick="zero()">0</button>
+          <button class="f1" id="resu" onclick="resu()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
